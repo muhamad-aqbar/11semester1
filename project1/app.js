@@ -1,8 +1,7 @@
-import { Navbar } from "./components/Navbar.js";
-import { Footer } from "./components/Footer.js";
+import { router } from "./router.js";
 
-const navbar = new Navbar({ activePage: "home" }).render();
-const footer = new Footer().render();
+// Jalankan router setiap kali hash di URL berubah (user klik menu)
+window.addEventListener("hashchange", router);
 
-// Tempel dua component ini berurutan ke #app
-document.getElementById("app").innerHTML = navbar + footer;
+// Jalankan router pertama kali saat halaman pertama dibuka
+window.addEventListener("DOMContentLoaded", router);
