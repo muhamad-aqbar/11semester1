@@ -6,7 +6,7 @@ export class Footer extends Component {
         return `
             <hr/>
             <footer>
-                <small>&copy; ${tahun} SMK Yadika Soreang — Semua hak dilindungi.</small>
+                <small>&copy; ${tahun} ${this.props.namasekolah} — Rodok - rodok adalah hak murid.</small>
             </footer>
         `;
     }

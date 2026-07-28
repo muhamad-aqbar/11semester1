@@ -8,7 +8,7 @@ export const routes = {
     "/about": AboutPage,
     "/kontak": KontakPage,
 };
-export function router() {
+export function router(namasekolah) {
     // Ambil path saat ini dari hash URL, contoh: "#/about" -> "/about"
     let path = window.location.hash.replace("#", "");
 
@@ -21,6 +21,6 @@ export function router() {
     const PageClass = routes[path] || HomePage;
 
     // Buat instance dari class Page tersebut, lalu render ke #app
-    const page = new PageClass();
+    const page = new PageClass({namasekolah});
     document.getElementById("app").innerHTML = page.render();
 }
