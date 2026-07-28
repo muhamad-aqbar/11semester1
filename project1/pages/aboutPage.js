@@ -10,9 +10,8 @@ export class AboutPage extends Component {
         return `
             ${navbar}
             <main>
-                <h1>Tentang Sekolah</h1>
-                <p>SMA Negeri Harapan Bangsa berdiri sejak tahun 1990, berkomitmen
-                mencetak generasi yang cerdas dan berkarakter.</p>
+                <h1>About Yadika Soreang</h1>
+                <p>SMK Yadika Soreang didirikan pada tahun 2013 dan mulai beroperasi pada tahun pelajaran 2013/2014 di bawah naungan Yayasan Abdi Karya (Yadika).</p>
             </main>
             ${footer}
           `;

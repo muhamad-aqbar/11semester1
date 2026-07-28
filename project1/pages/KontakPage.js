@@ -11,8 +11,8 @@ export class KontakPage extends Component {
          ${navbar}
             <main>
               <h1>Hubungi Kami</h1>
-              <p>Email: info@smaharapanbangsa.sch.id</p>
-              <p>Telepon: (021) 123-4567</p>
+              <p>Email: info@smkyadikasoreang.sch.id</p>
+              <p>Telepon: (+62) 2342 7382</p>
              </main>
          ${footer}
       `;
