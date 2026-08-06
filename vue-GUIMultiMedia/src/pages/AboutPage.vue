@@ -56,13 +56,13 @@ const daftarTim = [
         </p>
       </div>
 
-      <div class="cerita-kami__gambar">
+      <!-- <div class="cerita-kami__gambar">
         <img
-        src="
+        src="https://chatgpt.com/s/m_6a748545ca0c8191aa5ccbbfc3ad1e23
        "
           alt="Foto toko kami"
         />
-      </div>
+      </div> -->
     </section>
 
     <!-- Bagian Tim Kami -->
